@@ -42,7 +42,7 @@ void ONE_TS1() {
 
 	for (int s = 0; s<50000; s++) {
 		if (TyuShot.counter == hakkyou * s) {
-			for (int j = t1_f * s; j<t1_f * (s + 1); j++) {
+			for (int j = (int)t1_f * s; j<(int)t1_f * (s + 1); j++) {
 
 				TyuShot.TyuShots[j].x = TyuShot.mem_ex;//’e‚ÌXÀ•W‚É“G‚ÌXÀ•W‚ð‘ã“ü
 				TyuShot.TyuShots[j].y = TyuShot.mem_ey;//’e‚ÌYÀ•W‚É“G‚ÌYÀ•W‚ð‘ã“ü
@@ -99,7 +99,7 @@ void ONE_TS2() {
 		if (s == 0)
 			size = 1.5;
 		if (TyuShot.counter == hakkyou * s) {//10ƒJƒEƒ“ƒg‚É‚P‰ñ
-			for (int j = t1_f * s; j<t1_f * (s + 1); j++) {//‚Š‚Í”z—ñ‚Ì’†g‚Ì”Ô†‚È‚Ì‚Å‚O`‚P‚XA‚Q‚O`‚R‚X‚Æ‚¢‚¤‚æ‚¤‚ÉŒvŽZ‚·‚é
+			for (int j = (int)t1_f * s; j<(int)t1_f * (s + 1); j++) {//‚Š‚Í”z—ñ‚Ì’†g‚Ì”Ô†‚È‚Ì‚Å‚O`‚P‚XA‚Q‚O`‚R‚X‚Æ‚¢‚¤‚æ‚¤‚ÉŒvŽZ‚·‚é
 
 				TyuShot.TyuShots[j].x = TyuShot.mem_ex;//À•W‘ã“üX
 				TyuShot.TyuShots[j].y = TyuShot.mem_ey;//À•W‘ã“üY

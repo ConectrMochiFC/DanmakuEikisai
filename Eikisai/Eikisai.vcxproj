@@ -149,9 +149,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BG.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="BShot1.cpp" />
+    <ClCompile Include="Cluc.cpp" />
+    <ClCompile Include="Enemy1.cpp" />
+    <ClCompile Include="EShot1.cpp" />
     <ClCompile Include="FPS.cpp" />
     <ClCompile Include="Initi.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Load.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Reset.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="TShot1cpp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ex.h" />
