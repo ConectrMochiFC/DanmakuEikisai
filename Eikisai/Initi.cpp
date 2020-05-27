@@ -6,7 +6,7 @@ void Conf(void) {
 	SetGraphMode(MAPX, MAPY, 32);
 	SetWindowSizeChangeEnableFlag(TRUE);
 	SetAlwaysRunFlag(TRUE);
-	SetMainWindowText("Unknown");
+	SetMainWindowText("íeñãâeà®ç ");
 	if (DxLib_Init() == -1) exit(1);
 	SetDrawScreen(DX_SCREEN_BACK);
 	SetDrawArea(0, 0, 1280, 960);
